@@ -1,0 +1,16 @@
+{
+  "version": "2",
+  "sql": [
+    {
+      "schema": "src/test/resources/authors/schema.sql",
+      "queries": "src/test/resources/authors/query.sql",
+      "engine": "postgresql",
+      "gen": {
+        "kotlin": {
+          "out": "src/test/kotlin/com/example/authors",
+          "package": "com.example.authors"
+        }
+      }
+    }
+  ]
+}
