@@ -37,8 +37,6 @@ tasks {
     }
 
     compileTestKotlin {
-        dependsOn(generateTestQueries)
-
         kotlinOptions.jvmTarget = "1.8"
     }
 
